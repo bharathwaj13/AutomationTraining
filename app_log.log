@@ -1,0 +1,5 @@
+2025-01-12T11:33:39,777 [main] FATAL: This is a FATAL message
+2025-01-12T11:33:39,779 [main] ERROR: This is an ERROR message
+2025-01-12T11:33:39,779 [main] WARN : This is a WARN message
+2025-01-12T11:33:39,779 [main] INFO : This is an INFO message
+2025-01-12T11:33:39,779 [main] DEBUG: This is a DEBUG message
