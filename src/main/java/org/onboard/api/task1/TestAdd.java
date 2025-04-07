@@ -10,6 +10,16 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
+
+/**
+ * Use the below webservice to perform the Webservice testing
+ * http://www.dneonline.com/calculator.asmx
+ *
+ * The webservice exposes 4 methods. Test all the 4 methods with different combinations.
+ * Testing of each method gets 2 mark. There are some defects in the application.
+ * You need to find as many defects as possible.
+ *
+ */
 public class TestAdd {
 
     private String baseUrl;

@@ -14,6 +14,17 @@ import java.util.Base64;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
+/**
+ * https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issues/#api-rest-api-3-issue-issueidorkey-get
+ * 1. Create the defect in Jira.
+ * 2. Update the Defect using defect ID
+ * 3. Search the Defect created in the step 1
+ * 4. Add an attachment to the issue
+ * 5. Delete the defect created at step number 1
+ *
+ */
+
+
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class TestJira {
 

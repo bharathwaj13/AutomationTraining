@@ -7,6 +7,33 @@ import org.junit.Test;
 
 import static org.hamcrest.Matchers.*;
 
+/**
+ * Base URL  -> https://jsonplaceholder.typicode.com
+ * Resources available -->
+ * /posts
+ * /comments
+ * /albums
+ * /photos
+ * /todos
+ * /users
+ *
+ * Task
+ * 1. Verify the number of resources at each resource end point (6 marks)
+ * 2. For each type of resource
+ * 	a. Get a specific resource data (6 marks)
+ * 		i. verify the response code
+ * 		ii. Verify the response body
+ * 	b. Modify a specific resource data (6 marks)
+ * 		i. verify the response code
+ * 		ii. Verify the response body
+ * 	c. Delete a specific resource (6 marks)
+ * 		i. verify the response code
+ * 		ii. Verify the response body
+ * 	d. Create your own resource (6 marks)
+ * 		i. verify the response code
+ * 		ii. Verify the response body
+ */
+
 public class TestNumberOfResources {
 
     @Before

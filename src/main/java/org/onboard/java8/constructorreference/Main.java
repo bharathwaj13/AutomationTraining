@@ -1,5 +1,12 @@
 package org.onboard.java8.constructorreference;
 
+/**
+ *
+ * Constructor Reference
+ *
+ * 1. Write a program get the details of Employee Object , such as name,account,salary , where Employee class has parameterized constructor using constructor reference
+ */
+
 import java.util.function.BiFunction;
 import java.util.function.Function;
 

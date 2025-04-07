@@ -1,5 +1,15 @@
 package org.onboard.java8.primitivefunctionalinterface;
 
+/**
+ *
+ * PreConditions
+ * - Define a Product class with name, price, category, grade
+ *
+ * 1. Write an IntPredicate to verify if the given number is a primenumber
+ * 2. Write an IntConsumer to print square of the given number
+ * 3. Write a IntSupplier to give random int below 5000.
+ */
+
 
 import java.util.Random;
 import java.util.function.IntConsumer;

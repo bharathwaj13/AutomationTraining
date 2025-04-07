@@ -1,5 +1,21 @@
 package org.onboard.java8.functionalinterface;
 
+/**
+ *
+ * PreConditions
+ * - Define a Product class with name, price, category, grade
+ *
+ * Function Interface
+ *
+ * 1. Write a function to calculate the cost of all products in a given list of products.
+ *
+ * 2. Write a function to calculate the cost of all products whose prices is > 1000/- in the given list of products.
+ *
+ * 3. Write a function to calculate the cost of all electronic products in the given list of products.
+ *
+ * 4. Write a function to get all the products whose price is is > 1000/- and belongs to electronic category.
+ */
+
 import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;

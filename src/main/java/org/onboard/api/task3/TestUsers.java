@@ -7,6 +7,18 @@ import org.junit.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
+/**
+ *
+ * task - 2:(test data might be already present)
+ * https://jsonplaceholder.typicode.com/users
+ * GET call
+ * Validate the below from API response:
+ *
+ * That the status code is equal to ‘200’
+ * That there more than ‘3’ users in the list
+ * That one of the users has a name of “Ervin Howell”
+ */
+
 public class TestUsers {
 
     @Before

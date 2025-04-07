@@ -1,5 +1,34 @@
 package org.onboard.java8.predicates;
 
+/**
+ *
+ * PreConditions
+ * - Define a Product class with name, price, category, grade
+ * - Define a Response class with response body, status code, response type
+ *
+ * Predicates
+ *
+ * 1. Define a predicate to check if the price of given product is greaterthan 1000/-. Print all the products from the given list of the products if the price is greaterthan 1000/-.
+ *
+ * 2. Define a predicate to check if the product is of electronics category. Print all the products from the given list of the products if the product is of electronics category.
+ *
+ * 3. Print all the products from the given list of product if the product price is greaterthan 100/- which are in electronics category.
+ *
+ * 4. Print all the products from the given list of product if the product price is greaterthan 100/- or product is in electronics category.
+ *
+ * 5. Print all the products from the given list of product if the product price is lessthan 100/- and product is in electronics category.
+ *
+ * 6. Define a predicate to check if the status code is 400. Print all the responses with status code 400 from the given list of responses.
+ *
+ * 7. Define a predicate to check if the response type JSON. Print all the responses the response type JSON from the given list of responses.
+ *
+ * 8. Print all the responses with status code 400 and response type JSON
+ *
+ * 9. Print all the responses with status code 400 or response type JSON
+ *
+ * 10. Print all the responses with status code is not 400 and response type JSON
+ */
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;

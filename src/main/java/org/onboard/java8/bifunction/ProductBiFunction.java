@@ -1,5 +1,17 @@
 package org.onboard.java8.bifunction;
 
+/**
+ *
+ * PreConditions
+ * - Define a Product class with name, price, category, grade
+ *
+ * BiFunction
+ *
+ * 1. Given the name and price of the product, write a Bifunction to create a product.
+ *
+ * 2. Given the Product and quantity of the products, write a BiFunction to calculate the cost of products. A cart is a map of product and quantity. Given the cart, calculate the cost of the cart.
+ */
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.BiFunction;

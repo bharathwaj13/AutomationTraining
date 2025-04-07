@@ -1,5 +1,15 @@
 package org.onboard.corejava;
 
+/**
+ *
+ * Log4j
+ *
+ * 1. Implement loggers in all the excercises you do for the program
+ * 2. Demonstrate the use of levels of logging in atleast one task
+ * 3. Demonstrate the use of logging to a file
+ * 4. Demonstrate the use of logging in a user specific format
+ */
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
